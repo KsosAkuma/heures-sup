@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient( 90deg, blue , white , red);
+    height: 40em;
+}
+section{
+    position: relative;
+    text-align: center;
+}
+h1{
+    margin: 1.5em;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0em  1em 0em;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 5%;
+    border: 5px double blue;
+    max-width: 500px;
+    left: calc(50% - 250px - 10px);
+    height: auto;
+   
+}
+#formulaire{
+    border: 5px double blue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0em 2em 0em;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 5%;
+    max-width: 500px;
+    left: calc(50% - 250px - 10px);
+    height: auto;
+}
+input{
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 50px;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+#calculer{
+    width: 100px;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    padding: 0;
+}
+#calculer:hover{
+    background-color: lightgoldenrodyellow;
+}
