@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heures supplémentaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Mon premier programme: calculs tes heures supplémentaires ! </h1>
+        <div id="description">
+            <p>
+                Ce programme permet de connaître facilement combien l'on va gagner en heures sup ou combien
+                 on va pouvoir récupérer en heures.
+            </p>
+            <p>
+                (calcul basé sur 35h de travail hebdomadaire, majoration de 25% de 35h à 42h et majoration de 50 % au-delà.)
+            </p>
+        </div>
+        <div id="formulaire">
+            <p>Combien d'heures/semaine avez vous effectuées?</p>
+            <input type="text" id="nbHeure" value="">
+            <p>Quel tarif horraire exercez-vous?</p>
+            <input type="text" id="salaireHorraire" value="">
+            <input type="button" id="calculer" value="calculer" onclick="clickHeure()">
+            <p id="resultat"></p>
+            <p id="resultat2"></p>
+        </div>
+        
+    </section>
+    <script src="programme.js"></script>
+</body>
+</html>
